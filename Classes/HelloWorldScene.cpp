@@ -94,7 +94,7 @@ bool HelloWorld::init()
         this->addChild(sprite, 0);
     }
 
-    creator::CreatorReader* reader = creator::CreatorReader::createWithFilename("creator/Scene/base_scene.ccreator");
+    creator::CreatorReader* reader = creator::CreatorReader::createWithFilename("creator/Scene/sample_scene.ccreator");
     // will create the needed spritesheets + design resolution
     reader->setup();
 
@@ -107,6 +107,11 @@ bool HelloWorld::init()
     Vector<Node*> children = scene->getChildren();
     for (auto child : children){
         CCLOG("child name %s", child->getName().c_str());
+        if (child->getName() == "sample_layout")
+        {
+            cocos2d::ui::Layout* layout_cast = dynamic_cast<cocos2d::ui::Layout*>(child);
+            CCLOG("\n\n\n\nlayout_cast is: %s\n\n\n", layout_cast ? "cast properly" : "not converted");
+        }
     }
     auto raw_node = scene->getChildByName("my_btn");
     auto btn = dynamic_cast<cocos2d::ui::Button*>(raw_node);
