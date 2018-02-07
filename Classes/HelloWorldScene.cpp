@@ -107,10 +107,16 @@ bool HelloWorld::init()
     Vector<Node*> children = scene->getChildren();
     for (auto child : children){
         CCLOG("child name %s", child->getName().c_str());
+        if (child->getName() == "sample_button")
+        {
+            cocos2d::ui::Button* button_cast = dynamic_cast<cocos2d::ui::Button*>(child);
+            CCLOG("BUTTON_cast is: %s\n\n\n", button_cast ? "cast properly" : "not converted");
+        }
         if (child->getName() == "sample_layout")
         {
             cocos2d::ui::Layout* layout_cast = dynamic_cast<cocos2d::ui::Layout*>(child);
-            CCLOG("\n\n\n\nlayout_cast is: %s\n\n\n", layout_cast ? "cast properly" : "not converted");
+            CCLOG("LAYOUT_cast is: %s\n\n\n", layout_cast ? "cast properly" : "not converted");
+            //if (!layout_cast) { exit(0); };
         }
     }
     auto raw_node = scene->getChildByName("my_btn");
