@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="reader">
+      <UniqueIdentifier>{1d99683a-5c20-4444-ac80-ce0c836277a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\animation\AnimateClip.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\animation\AnimationClip.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\animation\AnimationManager.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\animation\Bezier.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\animation\Easing.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\collider\Collider.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\collider\ColliderManager.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\collider\Contract.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\collider\Intersection.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\CreatorReader.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\animation\Animation.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\animation\AnimationState.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\animation\TimelineState.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\animation\WorldClock.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\armature\Armature.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\armature\Bone.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\armature\Slot.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\cocos2dx\CCArmatureDisplay.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\cocos2dx\CCFactory.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\cocos2dx\CCSlot.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\cocos2dx\CCTextureData.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\core\BaseObject.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\events\EventObject.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\factories\BaseFactory.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\model\AnimationData.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\model\ArmatureData.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\model\DragonBonesData.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\model\FrameData.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\model\TimelineData.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\parsers\DataParser.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\parsers\JSONDataParser.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\textures\TextureData.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\ui\PageView.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SampleProject\Classes\reader\ui\RichtextStringVisitor.cpp">
+      <Filter>reader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\animation\AnimateClip.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\animation\AnimationClip.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\animation\AnimationClipProperties.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\animation\AnimationManager.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\animation\Bezier.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\animation\Easing.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\collider\Collider.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\collider\ColliderManager.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\collider\Contract.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\collider\Intersection.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\CreatorReader.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\CreatorReader_generated.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\animation\Animation.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\animation\AnimationState.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\animation\BaseTimelineState.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\animation\IAnimateble.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\animation\TimelineState.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\animation\WorldClock.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\armature\Armature.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\armature\Bone.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\armature\IArmatureDisplay.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\armature\Slot.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\armature\TransformObject.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\cocos2dx\CCArmatureDisplay.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\cocos2dx\CCDragonBonesHeaders.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\cocos2dx\CCFactory.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\cocos2dx\CCSlot.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\cocos2dx\CCTextureData.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\core\BaseObject.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\core\DragonBones.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\DragonBonesHeaders.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\events\EventObject.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\factories\BaseFactory.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\geom\ColorTransform.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\geom\Matrix.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\geom\Point.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\geom\Rectangle.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\geom\Transform.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\model\AnimationData.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\model\ArmatureData.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\model\DragonBonesData.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\model\FrameData.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\model\TimelineData.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\parsers\DataParser.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\parsers\JSONDataParser.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\textures\TextureData.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\flatbuffers\code_generators.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\flatbuffers\flatbuffers.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\flatbuffers\grpc.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\flatbuffers\hash.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\flatbuffers\idl.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\flatbuffers\reflection.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\flatbuffers\reflection_generated.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\flatbuffers\util.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\Macros.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\ui\PageView.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SampleProject\Classes\reader\ui\RichtextStringVisitor.h">
+      <Filter>reader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
