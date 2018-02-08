@@ -10,8 +10,8 @@
     <Filter Include="src">
       <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
     </Filter>
-    <Filter Include="reader">
-      <UniqueIdentifier>{1d99683a-5c20-4444-ac80-ce0c836277a5}</UniqueIdentifier>
+    <Filter Include="reader from SampleProject">
+      <UniqueIdentifier>{2d88742c-8d8f-469e-93ac-f92568a1653b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -24,107 +24,107 @@
     <ClCompile Include="..\Classes\HelloWorldScene.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\animation\AnimateClip.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\animation\AnimateClip.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\animation\AnimationClip.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\animation\AnimationClip.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\animation\AnimationManager.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\animation\AnimationManager.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\animation\Bezier.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\animation\Bezier.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\animation\Easing.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\animation\Easing.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\collider\Collider.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\collider\Collider.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\collider\ColliderManager.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\collider\ColliderManager.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\collider\Contract.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\collider\Contract.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\collider\Intersection.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\collider\Intersection.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\CreatorReader.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\CreatorReader.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\animation\Animation.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\animation\Animation.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\animation\AnimationState.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\animation\AnimationState.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\animation\TimelineState.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\animation\TimelineState.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\animation\WorldClock.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\animation\WorldClock.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\armature\Armature.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\armature\Armature.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\armature\Bone.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\armature\Bone.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\armature\Slot.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\armature\Slot.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\cocos2dx\CCArmatureDisplay.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\cocos2dx\CCArmatureDisplay.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\cocos2dx\CCFactory.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\cocos2dx\CCFactory.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\cocos2dx\CCSlot.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\cocos2dx\CCSlot.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\cocos2dx\CCTextureData.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\cocos2dx\CCTextureData.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\core\BaseObject.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\core\BaseObject.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\events\EventObject.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\events\EventObject.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\factories\BaseFactory.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\factories\BaseFactory.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\model\AnimationData.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\model\AnimationData.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\model\ArmatureData.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\model\ArmatureData.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\model\DragonBonesData.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\model\DragonBonesData.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\model\FrameData.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\model\FrameData.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\model\TimelineData.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\model\TimelineData.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\parsers\DataParser.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\parsers\DataParser.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\parsers\JSONDataParser.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\parsers\JSONDataParser.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\dragonbones\textures\TextureData.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\textures\TextureData.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\ui\PageView.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\ui\PageView.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SampleProject\Classes\reader\ui\RichtextStringVisitor.cpp">
-      <Filter>reader</Filter>
+    <ClCompile Include="..\..\SampleProject\packages\creator-luacpp-support\reader\ui\RichtextStringVisitor.cpp">
+      <Filter>reader from SampleProject</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -137,176 +137,176 @@
     <ClInclude Include="..\Classes\HelloWorldScene.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\animation\AnimateClip.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\animation\AnimateClip.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\animation\AnimationClip.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\animation\AnimationClip.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\animation\AnimationClipProperties.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\animation\AnimationClipProperties.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\animation\AnimationManager.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\animation\AnimationManager.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\animation\Bezier.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\animation\Bezier.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\animation\Easing.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\animation\Easing.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\collider\Collider.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\collider\Collider.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\collider\ColliderManager.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\collider\ColliderManager.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\collider\Contract.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\collider\Contract.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\collider\Intersection.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\collider\Intersection.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\CreatorReader.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\CreatorReader.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\CreatorReader_generated.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\CreatorReader_generated.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\animation\Animation.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\animation\Animation.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\animation\AnimationState.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\animation\AnimationState.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\animation\BaseTimelineState.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\animation\BaseTimelineState.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\animation\IAnimateble.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\animation\IAnimateble.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\animation\TimelineState.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\animation\TimelineState.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\animation\WorldClock.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\animation\WorldClock.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\armature\Armature.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\armature\Armature.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\armature\Bone.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\armature\Bone.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\armature\IArmatureDisplay.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\armature\IArmatureDisplay.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\armature\Slot.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\armature\Slot.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\armature\TransformObject.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\armature\TransformObject.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\cocos2dx\CCArmatureDisplay.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\cocos2dx\CCArmatureDisplay.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\cocos2dx\CCDragonBonesHeaders.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\cocos2dx\CCDragonBonesHeaders.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\cocos2dx\CCFactory.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\cocos2dx\CCFactory.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\cocos2dx\CCSlot.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\cocos2dx\CCSlot.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\cocos2dx\CCTextureData.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\cocos2dx\CCTextureData.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\core\BaseObject.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\core\BaseObject.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\core\DragonBones.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\core\DragonBones.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\DragonBonesHeaders.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\DragonBonesHeaders.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\events\EventObject.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\events\EventObject.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\factories\BaseFactory.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\factories\BaseFactory.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\geom\ColorTransform.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\geom\ColorTransform.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\geom\Matrix.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\geom\Matrix.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\geom\Point.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\geom\Point.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\geom\Rectangle.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\geom\Rectangle.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\geom\Transform.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\geom\Transform.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\model\AnimationData.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\model\AnimationData.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\model\ArmatureData.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\model\ArmatureData.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\model\DragonBonesData.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\model\DragonBonesData.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\model\FrameData.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\model\FrameData.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\model\TimelineData.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\model\TimelineData.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\parsers\DataParser.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\parsers\DataParser.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\parsers\JSONDataParser.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\parsers\JSONDataParser.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\dragonbones\textures\TextureData.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\dragonbones\textures\TextureData.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\flatbuffers\code_generators.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\flatbuffers\code_generators.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\flatbuffers\flatbuffers.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\flatbuffers\flatbuffers.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\flatbuffers\grpc.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\flatbuffers\grpc.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\flatbuffers\hash.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\flatbuffers\hash.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\flatbuffers\idl.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\flatbuffers\idl.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\flatbuffers\reflection.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\flatbuffers\reflection.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\flatbuffers\reflection_generated.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\flatbuffers\reflection_generated.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\flatbuffers\util.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\flatbuffers\util.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\Macros.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\Macros.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\ui\PageView.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\ui\PageView.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SampleProject\Classes\reader\ui\RichtextStringVisitor.h">
-      <Filter>reader</Filter>
+    <ClInclude Include="..\..\SampleProject\packages\creator-luacpp-support\reader\ui\RichtextStringVisitor.h">
+      <Filter>reader from SampleProject</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

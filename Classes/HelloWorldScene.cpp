@@ -1,7 +1,7 @@
 #include "HelloWorldScene.h"
 #include "SimpleAudioEngine.h"
 
-#include "reader/CreatorReader.h"
+#include "CreatorReader.h"
 
 USING_NS_CC;
 
@@ -32,7 +32,7 @@ bool HelloWorld::init()
 
     Vector<Node*> children = scene->getChildren();
     for (auto child : children){
-        CCLOG("child name %s", child->getName().c_str());
+        CCLOG("child name: '%s'", child->getName().c_str());
         if (child->getName() == "sample_button")
         {
             cocos2d::ui::Button* button_cast = dynamic_cast<cocos2d::ui::Button*>(child);
